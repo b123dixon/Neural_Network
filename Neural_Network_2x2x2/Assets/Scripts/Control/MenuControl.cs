@@ -1,18 +1,21 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MenuControl : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    //simply for changing scenes and shutting down application
+    public void ChangeScene(string newScene)
     {
-        
+        SceneManager.LoadScene(newScene);
     }
-
-    // Update is called once per frame
-    void Update()
+    public void CloseDown()
     {
-        
+        Application.Quit();
+    }
+    public void GoToLink()
+    {
+        Application.OpenURL("https://docs.google.com/document/d/1IxZJHJHN0iulzqdrRlhCHvhhn7ctN2i_qlNzbNL_lQw/edit?usp=sharing");
     }
 }

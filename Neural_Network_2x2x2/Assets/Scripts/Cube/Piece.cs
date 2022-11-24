@@ -2,17 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Piece : MonoBehaviour
+public abstract class Piece
 {
-    // Start is called before the first frame update
-    void Start()
+    //classic abstract class for Pieces
+    public Piece()
     {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
+    public abstract int GetColor(int num);
+    public abstract void Turned(Piece newSpot, int side);
+    public abstract int GetColorFromMid(int midColor);
+    public abstract float GetScoreTile();
 }
