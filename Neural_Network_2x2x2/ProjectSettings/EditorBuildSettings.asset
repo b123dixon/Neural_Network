@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/WorkingFine/Menu.unity
+    guid: 4f84acc6041c0e84c82ea09aed58d971
+  - enabled: 1
+    path: Assets/Scenes/WorkingFine/Cube.unity
+    guid: c1af30372cc047249ab2a8ac6962c07d
+  - enabled: 1
+    path: Assets/Scenes/WorkingFine/NNPieces.unity
+    guid: 5e37ae356bf79e04bba5ff7836d00ce4
   m_configObjects: {}
