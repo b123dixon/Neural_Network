@@ -43,6 +43,7 @@ public class SolverControl : MonoBehaviour
     void Start()
     {
         //creates cube
+        Debug.Log("bruh");
         mini = new MiniCube();
         cubeDisplay.GetComponent<MiniCubeDisplay>().SetCube(mini);
         cubeDisplay.GetComponent<MiniCubeDisplay>().ShowCube();

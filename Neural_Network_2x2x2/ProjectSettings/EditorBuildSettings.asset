@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/WorkingFine/NNPieces.unity
     guid: 5e37ae356bf79e04bba5ff7836d00ce4
+  - enabled: 1
+    path: Assets/Scenes/WorkingFine/Solver.unity
+    guid: 7b6764d0391858045824ef72b5b0dafa
   m_configObjects: {}
